@@ -18,7 +18,9 @@ const config: Config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'open-run-org', // Usually your GitHub org/user name.
-  projectName: 'wiki', // Usually your repo name.
+  projectName: 'open-run-org.github.io', // Usually your repo name.
+  deploymentBranch:'main',
+  trailingSlash: false,
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -102,7 +104,7 @@ const config: Config = {
           items: [
             {
               label: 'Guide',
-              to: '/docs/intro',
+              to: '/docs',
             },
           ],
         },

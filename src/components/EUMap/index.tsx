@@ -35,33 +35,7 @@ const euCountries = [
 
 // Country pages mapping with ISO codes (in a real app, this would be dynamically generated)
 const countryPages = {
-    at: 'docs/countries/austria',
-    be: 'docs/countries/belgium',
-    bg: 'docs/countries/bulgaria',
-    cy: 'docs/countries/cyprus',
-    cz: 'docs/countries/czech-republic',
     de: 'docs/countries/germany',
-    dk: 'docs/countries/denmark',
-    ee: 'docs/countries/estonia',
-    es: 'docs/countries/spain',
-    fi: 'docs/countries/finland',
-    fr: 'docs/countries/france',
-    gr: 'docs/countries/greece',
-    hr: 'docs/countries/croatia',
-    hu: 'docs/countries/hungary',
-    ie: 'docs/countries/ireland',
-    it: 'docs/countries/italy',
-    lt: 'docs/countries/lithuania',
-    lu: 'docs/countries/luxembourg',
-    lv: 'docs/countries/latvia',
-    mt: 'docs/countries/malta',
-    nl: 'docs/countries/netherlands',
-    pl: 'docs/countries/poland',
-    pt: 'docs/countries/portugal',
-    ro: 'docs/countries/romania',
-    se: 'docs/countries/sweden',
-    si: 'docs/countries/slovenia',
-    sk: 'docs/countries/slovakia',
 };
 
 const EUMap = () => {
